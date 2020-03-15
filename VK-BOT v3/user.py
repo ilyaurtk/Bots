@@ -84,13 +84,13 @@ def about_us(vk, event, data):
                 f"e-mail: {data['email']}\n"
                 f"Сайт: {data['site']}\n\n"
 
-                f"Часы работы: {data['time']}\n\n"
+                f"Часы работы:\n{data['time']}\n\n"
 
                 f"Услуги:\n"
                 f"{president}{national}{national_kids}\n"
                 f"{data['services']}\n\n"
 
-                f"Транспорт: {data['transport']}",
+                f"Транспорт:\n{data['transport']}",
         keyboard=keyboard.get_keyboard(),
         lat=data['lat'],
         long=data['long'],
@@ -100,7 +100,7 @@ def about_us(vk, event, data):
 
 def mob(vk, event, list):
     keyboard = vk_api.keyboard.VkKeyboard(one_time=True)
-    keyboard.add_button("назад", vk_api.keyboard.VkKeyboardColor.DEFAULT,
+    keyboard.add_button("Назад", vk_api.keyboard.VkKeyboardColor.DEFAULT,
                         {"section": "about us"})
 
     vk.messages.send(
