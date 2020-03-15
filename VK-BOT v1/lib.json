@@ -1,0 +1,26 @@
+{
+  "libID": 0,
+  "groupID": 192528646,
+  "token": "e099352dceda238730ac249224700762a91a4c066b34a43e0cf3189b6eb5245182dad27e137e6803b4417",
+
+  "title": "Библиотека № 0 / Тестовая библиотека",
+  "isOpen": true,
+  "isKids": false,
+
+  "location": "тут типа адрес",
+  "time": "да как откроемся, так и поработаем",
+  "transport": "на траллике",
+  "lat": 56.839351,
+  "long": 60.608856,
+
+  "phone": "8-800-555",
+  "contact": "чел",
+  "email": "not-a-lib@yandex.ru",
+  "site": "https://vk.com/notalib1",
+
+  "president": true,
+  "national": true,
+  "national_kids": false,
+
+  "services": "взрослый абонемент, детский абонемент, читальный зал\n\nКлубы:\nи-сеть там компы да я не помню"
+}
